@@ -5,3 +5,5 @@ Se aplicó el patrón Fábrica Abstracta para desacoplar la lógica principal de
 
 # Parte II 
 Se refactorizó el juego aplicando Inversión de Dependencias y el patrón Fábrica Abstracta para desacoplar la lógica del juego del estilo visual. Se definieron abstracciones para el jugador, balas y fondo, junto con fábricas que crean las implementaciones concretas (sprites, vectoriales y vectoriales a color). Esto permitió cambiar completamente el estilo visual modificando únicamente la configuración de la fábrica, sin tocar la lógica central. Además, se implementó el nuevo estilo colorful-vectorial-style,
+
+hecho junto a Julian Vasquez y Samuel Sabogal
